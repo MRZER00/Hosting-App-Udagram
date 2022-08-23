@@ -58,9 +58,8 @@ jobs:
       - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
-          command: |
-            echo "TODO: deploy the app full-stck"
-            # npm run app:deploy  
+          command: |  
+            echo "# TODO: Install, build, deploy in both apps (full-stack)"  
 
 workflows:
   Udagram_Full-Stack:
