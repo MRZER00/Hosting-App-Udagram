@@ -48,7 +48,7 @@ jobs:
       # TODO: deploy the backend API
       - run:
           name: Back-End Deploy
-          command: npm run backend:deploy
+          command: npm run api:deploy
       # TODO: deploy the frontend app
       - run:
           name: Front-End Deploy
