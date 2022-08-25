@@ -73,16 +73,18 @@ jobs:
 workflows:
   Udagram_Full-Stack:
     jobs:
-      - build
-      - hold:
-          filters:
-            branches:
-              only:
-                - main
-          type: approval
-          requires:
-            - build
-      - deploy:
-          requires:
-            - hold
+      # - build
+      - deploy
+      # - hold:
+      #     filters:
+      #       branches:
+      #         only:
+      #           - main
+      #     type: approval
+      #     requires:
+      #       - build
+      # - deploy:
+        
+          # requires:
+          #   - hold
 
