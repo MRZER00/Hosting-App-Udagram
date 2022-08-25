@@ -16,14 +16,15 @@ jobs:
           node-version: '14.15'         
       - checkout
       # Use root level package.json to install dependencies in the frontend app
-      # - run:
-      #     name: Install Front-End Dependencies
-      #     command: |
-      #       # echo "NODE --version" 
-      #       # echo $(node --version)
-      #       # echo "NPM --version" 
-      #       # echo $(npm --version)
-      #       npm run frontend:install
+      - run:
+          name: Install Front-End Dependencies
+          command: |
+            npm run frontend:install
+            # echo "NODE --version" 
+            # echo $(node --version)
+            # echo "NPM --version" 
+            # echo $(npm --version)
+            npm run frontend:install
       # # TODO: Build the frontend app
       # - run:
       #     name: Front-End Build
