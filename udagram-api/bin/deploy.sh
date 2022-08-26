@@ -1,4 +1,4 @@
-eb init Udagram_Full-Stack --platform node.js --region us-east-1
+eb init Udagram_FullStack --platform node.js --region us-east-1
 eb use Udagramfullstack-env
 eb deploy
 eb health
