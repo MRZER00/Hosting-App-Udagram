@@ -2,7 +2,7 @@ branch-defaults:
   default:
     environment: Udagramfullstack-env
 global:
-  application_name: Udagram_Full-Stack
+  application_name: Udagram_FullStack
   branch: null
   default_ec2_keyname: null
   default_platform: Node.js 14  running on 64bit Amazon Linux 2
