@@ -68,7 +68,7 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |  
             # echo "# TODO: Install, build, deploy frontend & backend (full-stack)"  
-            npm run app:deploy
+            npm run api:deploy
 
 workflows:
   Udagram_Full-Stack:
