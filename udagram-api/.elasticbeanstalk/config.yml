@@ -1,9 +1,9 @@
 branch-defaults:
   main:
-    environment: udagramfullstack0-env
+    environment: udagramfullstack-env
     group_suffix: null
 global:
-  application_name: udagram_fullstack0
+  application_name: udagram_fullstack
   branch: null
   default_ec2_keyname: null
   default_platform: Node.js 16
