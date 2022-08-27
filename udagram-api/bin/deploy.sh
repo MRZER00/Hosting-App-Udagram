@@ -1,4 +1,4 @@
-eb init myprojectv3 --region us-east-1
+eb init myprojectv3 --platform node.js --region us-east-1
 eb use Myprojectv3-env
 eb deploy Myprojectv3-env
 
