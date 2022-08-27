@@ -79,7 +79,7 @@ workflows:
   Udagram_Full-Stack:
     jobs:
       - build
-      - deploy
+      # - deploy
       - hold:
           filters:
             branches:
@@ -89,7 +89,6 @@ workflows:
           requires:
             - build
       - deploy:
-        
           requires:
             - hold
 
