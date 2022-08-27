@@ -1,7 +1,9 @@
-# eb init udagram_fullstack --platform node.js --region us-east-1
+eb init udagram_fullstack --platform node.js --region us-east-1
+eb create --sample udagramfullstack-env
 eb use udagramfullstack-env
 eb deploy
 eb health
+eb open
 # if you want read the logs
 # eb logs
 
