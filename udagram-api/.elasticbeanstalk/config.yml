@@ -1,7 +1,10 @@
 branch-defaults:
   main:
-    environment: udagramfullstack-env
+    environment: udagram-api-env
     group_suffix: null
+# Setting EB deploy artifact to Archive.zip
+deploy:
+  artifact: ./www/Archive.zip
 global:
   application_name: udagram_fullstack
   branch: null
@@ -16,3 +19,5 @@ global:
   repository: null
   sc: git
   workspace_type: Application
+
+
