@@ -1,5 +1,5 @@
 # Hosting a Full-Stack Application
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/MRZER00/Hosting-App-Udagram-Full-Stack/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/MRZER00/Hosting-App-Udagram-Full-Stack/tree/main)
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
 
 ---
@@ -12,7 +12,6 @@ You will then register for a free account on CircleCi and connect your Github ac
 
 The project will also include writing documentation and runbooks covering the operations of the deployment process. Those runbooks will serve as a way to communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
 
-``` http://mr-zer00-bucket.s3-website-us-east-1.amazonaws.com ```
 
 # Udagram
 
