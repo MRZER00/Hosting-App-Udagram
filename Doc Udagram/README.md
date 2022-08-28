@@ -26,7 +26,7 @@
 
 - S3 Endpoint - Frontend: http://mr-zer00-bucket.s3-website-us-east-1.amazonaws.com/
 
-- Elastic Beanstalk URL - Backend: http://udagramfullstack-env.eba-6cuc89mn.us-east-1.elasticbeanstalk.com/api/v0
+- Elastic Beanstalk URL - Backend: http://udagramfullstack-env.eba-6cuc89mn.us-east-1.elasticbeanstalk.com/
 
 
 ## Environment Variables
